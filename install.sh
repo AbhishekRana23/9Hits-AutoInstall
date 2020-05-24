@@ -256,7 +256,6 @@ else
     fi
     if [ $os == "1" ] || [ $os == "2" ]; then
         apt-get update
-        apt-get upgrade -y
         apt-get install -y unzip libcanberra-gtk-module curl libxss1 xvfb htop sed tar libxtst6 libnss3 wget psmisc
     else
         yum -y update
